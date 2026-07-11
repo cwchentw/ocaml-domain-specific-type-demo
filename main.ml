@@ -11,9 +11,9 @@ let _ =
        |> string_of_natural_int
        |> Printf.printf "%s\n"
      | Error msg -> msg
-       |> Printf.printf "%s\n")
-  | Error msg, _ -> Printf.printf "%s\n" msg
-  | _, Error msg -> Printf.printf "%s\n" msg
+       |> Printf.eprintf "%s\n")
+  | Error msg, _ -> Printf.eprintf "%s\n" msg
+  | _, Error msg -> Printf.eprintf "%s\n" msg
 
 let _ =
   let open NaturalInt in
