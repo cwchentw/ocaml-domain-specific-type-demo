@@ -1,4 +1,4 @@
-# ocaml-domain-specific-programming-demo
+# ocaml-domain-specific-type-demo
 
 A case study in implementing domain‑specific types.
 
